@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="css/modern-normalize.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="css/fontawesome.min.css" rel="stylesheet">
+  <link href="css/solid.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:wght@500;700&display=swap"rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header">
+    <h1 class="heading">
+      <span class="gunting">Gunting Batu Kertas</span>
+    </h1>
+  </header>
+
+  <main class="main">
+    <div class="player">
+      <h2 class="heading">Pemain</h2>
+      <i class="fas fa-question-circle  player-choice"></i>
+    </div>
+
+    <div class="results">
+      <div class="result-box">
+        <!-- <h2 class="heading final-result">Good luck</h2> -->
+        <span class="round-result"></span>
+      </div>
+      <div class="stats">
+        <div class="stats-col">
+          <div class="stat">
+            <span class="round-count">0</span>
+            <p><i class="fas fa-undo-alt"></i> Babak</p>
+          </div>
+          <div class="stat">
+            <span class="wins">0</span>
+            <p><i class="fas fa-medal"></i> Menang</p>
+          </div>
+        </div>
+        <div class="stats-col">
+          <div class="stat">
+            <span class="draws">0</span>
+            <p><i class="fas fa-balance-scale"></i> Imbang</p>
+          </div>
+          <div class="stat">
+            <span class="defeats">0</span>
+            <p><i class="fas fa-skull"></i> Kalah</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="opponent">
+      <h2 class="heading">Komputer</h2>
+      <i class="fas fa-question-circle opponent-choice"></i>
+    </div>
+
+    <div class="controls">
+      <h2 class="heading">Suwit</h2>
+      <div class="select">
+        <button class="selection rock" href="#"><i class="fas fa-hand-rock fa-fw"></i></button>
+        <button class="selection paper" href="#"><i class="fas fa-hand-paper fa-fw"></i></button>
+        <button class="selection scissors" href="#"><i class="fas fa-hand-peace fa-fw"></i></button>
+      </div>
+      <button class="new-game">Mulai Ulang</button>
+    </div>
+  </main>
+
+  <!-- <footer class="footer">
+    <span class="footer-text"> -->
+      <!-- Built by
+      <a class="footer-link" href="https://github.com/Artis-Dev/"target="_blank">ArtisDev</a> |
+      <a class="footer-link" href="https://github.com/Artis-Dev/rock-paper-scissors"target="_blank">Source</a>
+    </span> -->
+  <!-- </footer> -->
+
+  <script src="app.js"></script>
+</body>
+
+</html>
